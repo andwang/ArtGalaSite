@@ -64,20 +64,47 @@ body {
   font-size:30px;
 }
 
+.contents {
+  padding-top:50px;
+  height:300px;
+  position:absolute;
+  color:#fff;
+  left:720px;
+  top: 320px;
+  font-family: RThin;
+}
+
+.buybutton {
+  background:url('button_bg.png') no-repeat;
+  padding-top:26px;
+  padding-bottom:30px;
+  padding-left:65px;
+  padding-right:60px;
+  font-family: 'RThin';
+  font-size:20px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
 .footer {
   position:absolute;
-  bottom:0px;
+  top:1000px;
   height:80px;
   background:#000;
   width:100%;
   left:0px;
   clear:both;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 @font-face {
   font-family: RLight;
   src: url('Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: RRegular;
+  src: url('Roboto-Regular.ttf');
 }
 
 @font-face {
