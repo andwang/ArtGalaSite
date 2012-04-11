@@ -18,6 +18,17 @@ test:
   pool: 5
   timeout: 5000
 
+#postgres://sinazcieze:GVIfmvVh_MKLmBjk3i0H@ec2-23-21-132-134.compute-1.amazonaws.com/sinazcieze
+
+production:
+  encoding: unicode
+  adapter: postgresql
+  username: sinazcieze
+  port: 5432
+  host: ec2-23-21-132-134.compute-1.amazonaws.com
+  database: sinazcieze
+  password: GVIfmvVh_MKLmBjk3i0H
+
 #production:
 #  adapter: sqlite3
 #  database: db/production.sqlite3
