@@ -8,12 +8,46 @@
 </div>
 <div class='fire'>
 </div>
+<div id='screens' class='fire-screens' style='overflow:hidden'>
+     <img src="assets/artgala_screen1.jpg" data-caption='#caption1' />
+     <img src="assets/artgala_screen2.jpg"  data-caption='#caption2'  />
+     <img src="assets/artgala_screen3.jpg" data-caption='#caption3' />
+     <img src="assets/artgala_screen4.jpg" data-caption='#caption4' />
+     <img src="assets/artgala_screen5.jpg" data-caption='#caption5' />
+     <img src="assets/artgala_screen6.jpg" data-caption='#caption6' />
+     <img src="assets/artgala_screen7.jpg" data-caption='#caption7' />
+     <img src="assets/artgala_screen8.jpg" data-caption='#caption8' />
+     <img src="assets/artgala_screen9.jpg" data-caption='#caption9' />
+</div>
+
+<div style='position:absolute;display:none'>
+  <span id="caption1" >50,000 paintings from some of the world's <br> most famous artists.</span>
+  <span id="caption2" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
+  <span id="caption3" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
+  <span id="caption4" >50,000 paintings from some of the world's <br> most famous artists.</span>
+  <span id="caption5" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
+  <span id="caption6" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
+  <span id="caption7" >50,000 paintings from some of the world's <br> most famous artists.</span>
+  <span id="caption8" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
+  <span id="caption9" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
+</div>
+
 <div class='contents'>
          <div id='#available'>
              <div style='height:140px'></div>
              <div class='buybutton'>Get the App</div>
              <span style="font-family:'RRegular';padding-left:17px">Available on: </span> Kindle Fire, B&N Nook, Android Tablets
          </div>
-    </div>
+</div>
+
 <div class='footer'>
 </div>
+<script type="text/javascript">
+     $(window).load(function() {
+         $('#screens').orbit({
+              animation: 'fade',
+              captions: true, 	
+              captionAnimation: 'fade', 
+         });
+     });
+</script>

@@ -14,6 +14,7 @@
 body {
    background:url('bg.jpg');
    background-size:1000px 1000px;
+   line-height:1.0 !important;
 }
 
 .strip {
@@ -31,10 +32,24 @@ body {
    position:absolute;
    background-size:700px;
    background-repeat:no-repeat;
-   top:100px;
+   top:10px;
    height:900px;
    width:600px;
    left:10%;
+}
+
+.fire-screens {
+   height:442px;
+   width:250px;
+   top:35px;
+   left:10%;
+   margin-left:177px;
+   margin-top:155px;
+   position:absolute !important;
+}
+
+.fire-screens img {
+   height:472px;
 }
 
 .logo {
@@ -57,11 +72,11 @@ body {
 
 .header .b {
   font-family:'RLight';
-   font-size:70px;
+  font-size:60px;
 }
 
 .header .s {
-  font-size:30px;
+  font-size:25px;
 }
 
 .contents {
@@ -95,6 +110,20 @@ body {
   left:0px;
   clear:both;
   background: rgba(0, 0, 0, 0.8);
+}
+
+.orbit-caption {
+  font-size:40px !important;
+  color:#fff;
+  position:absolute;
+  left:720px !important;
+  width:35% !important;
+  height:200px !important;
+  top:350px; 
+  z-index:30;
+  background:none !important;  
+  font-family:'RThin' !important;
+  text-align:right !important;
 }
 
 @font-face {
