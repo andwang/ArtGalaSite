@@ -13,7 +13,7 @@
 */
 body {
    background:url('bg.jpg');
-   background-size:1000px 1000px;
+   background-size:900px 1000px;
    line-height:1.0 !important;
 }
 
@@ -33,7 +33,7 @@ body {
    background-size:700px;
    background-repeat:no-repeat;
    top:10px;
-   height:900px;
+   height:810px;
    width:600px;
    left:10%;
 }
@@ -58,16 +58,18 @@ body {
    width:300px;
    height:100px;
    right:10px;
+   top:20px;
 }
 
 .header {
    font-family:'RThin';
    color:#fff;
    position:absolute;
-   top:50px;
+   top:34px;
    left:10%;
    width:600px;
-   padding-left:100px;
+   padding-left:170px;
+   z-index:30;
 }
 
 .header .b {
@@ -87,6 +89,7 @@ body {
   left:720px;
   top: 320px;
   font-family: RThin;
+  z-index:50;
 }
 
 .buybutton {
@@ -100,16 +103,18 @@ body {
   margin-bottom:10px;
   cursor:pointer;
 }
+.holder {
+  height:820px;
+}
 
 .footer {
-  position:absolute;
-  top:1000px;
-  height:80px;
+  height:100px;
   background:#000;
   width:100%;
   left:0px;
   clear:both;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
+  overflow:hidden;
 }
 
 .orbit-caption {
@@ -124,6 +129,65 @@ body {
   background:none !important;  
   font-family:'RThin' !important;
   text-align:right !important;
+}
+
+.qtip {
+  backgroun: rgba(0,0,0,0.85);
+}
+
+.kindle_fire_link, .nook_link, .android_link {
+ background-size:30px 30px;
+ padding-left:45px;
+ padding-bottom:5px;
+ padding-top:5px;
+ color:#fff;
+ font-family:'RLight' !important;
+  margin-bottom:15px;
+}
+
+.kindle_fire_link:hover, .nook_link:hover, .android_link:hover {
+   background-color:rgba(50,50,50,0.5);
+}
+
+.kindle_fire_link:hover a, .nook_link:hover a, .android_link:hover a {
+   color:#fff;
+}
+
+
+.kindle_fire_link a,.nook_link a, .android_link  a{
+   color:#fff;
+   font-size:17px; 
+}
+
+.kindle_fire_link {
+   background:url(amazon_icon.png);
+   background-repeat: no-repeat;
+}
+
+.android_link {
+   background:url(google_play.png);
+   background-repeat: no-repeat;
+}
+
+
+.nook_link {
+   background:url(nook_store.png);
+   background-repeat: no-repeat;
+}
+
+.footer-description {
+  width: 550px;
+  font-size: 13px;
+  line-height: 1.4;
+  font-family: 'RLight' !important;
+  position: relative;
+  color: #AAA;
+  top: -70px;
+  left: 200px;
+  height: 50px;
+  border-left: 1px solid #555;
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 @font-face {

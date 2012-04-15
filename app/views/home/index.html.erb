@@ -23,8 +23,8 @@
 <div style='position:absolute;display:none'>
   <span id="caption1" >50,000 paintings from some of the world's <br> most famous artists.</span>
   <span id="caption2" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
-  <span id="caption3" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
-  <span id="caption4" >50,000 paintings from some of the world's <br> most famous artists.</span>
+  <span id="caption3" >Picasso, Da Vinci, Van Gogh <br> breath-taking artwork <br>  masterpieces </span>
+  <span id="caption4" >Explore different art periods.<br> From ancient times <br> to contemporary</span>
   <span id="caption5" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
   <span id="caption6" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
   <span id="caption7" >50,000 paintings from some of the world's <br> most famous artists.</span>
@@ -35,12 +35,22 @@
 <div class='contents'>
          <div id='#available'>
              <div style='height:140px'></div>
-             <div class='buybutton'>Get the App</div>
+             <div class='buybutton' id='buybutton'>Get the App</div>
              <span style="font-family:'RRegular';padding-left:17px">Available on: </span> Kindle Fire, B&N Nook, Android Tablets
          </div>
 </div>
-
+<div class='holder'>
+</div>
 <div class='footer'>
+    <img src='assets/logo.png' style='width:150px;float:right;margin-right:100px;margin-top:30px'> 
+    <div style='padding-top:20px;padding-left:120px'>
+         <iframe src="//www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=box_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=90&amp;appId=241913142563486" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:70px; height:60px;position:relative;" allowTransparency="true"></iframe>
+         <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-text="Love art? Check out :" data-related="gonepixel" data-hashtags="art">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+         <div class='footer-description'>
+              GonePixel creates mobile applications for android tablets, as well ios applications. To contact us, please check us out at @gonepixel or send us an e-mail at gonepixel@gmail.com 
+         </div>
+    </div>
 </div>
 <script type="text/javascript">
      $(window).load(function() {
@@ -51,6 +61,41 @@
               captions: true, 	
               captionAnimation: 'fade', 
               captionAnimationSpeed: 2000
+         });
+    
+         $('#buybutton').click(function(){
+              if($(this).data("qtip")) $(this).qtip("destroy");
+       
+              $(this).qtip({
+                   content: '<div style="width:170px;height:120px;color:#fff;font-size:20px">' +
+                               '<div class="kindle_fire_link"> <a href="http://www.amazon.com/GonePixel-Art-Gala-Classical-Masterpieces/dp/B007JYKPIW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1334461628&sr=1-1">Kindle Fire</a></div>' +
+                               '<div class="nook_link"> <a href="http://www.amazon.com/GonePixel-Art-Gala-Classical-Masterpieces/dp/B007JYKPIW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1334461628&sr=1-1"> Nook Tablet</a></div>' +
+                               '<div class="android_link"> <a href="https://play.google.com/store/apps/details?id=com.art&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5hcnQiXQ.."> Android Tablet</a></div>' +
+                               ' <br> Nook Tablet <br> Android Tablet <br> iPad </div>',
+                   position: {
+                      corner: {
+                        tooltip:'bottomMiddle',
+                        target:'topMiddle'
+                      }
+                   },
+                   show: {
+                      when: false, // Don't specify a show event
+                      ready: true // Show the tooltip when ready
+                   },
+                   hide: {
+                      fixed: true
+                   },
+                   style: {
+                       border: {
+                            width: 2,
+                            radius: 10,
+                            color: 'rgba(0,0,0,0.8)'
+                       },
+                       padding: 10, 
+                       tip: true,
+                       background: 'rgba(0,0,0,0.6)'
+                   }
+              });
          });
      });
 </script>
