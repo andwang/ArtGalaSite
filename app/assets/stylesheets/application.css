@@ -40,7 +40,7 @@ body {
 .fire {
    background:url('kindle_fire.png');
    position:absolute;
-   background-size:450px;
+   background-size:550px;
    background-repeat:no-repeat;
    top:190px;
    height:810px;
@@ -49,17 +49,17 @@ body {
 }
 
 .fire-screens {
-   height:352px;
+   height:452px;
    width:250px;
-   top:150px;
-   left:162px;
+   top:170px;
+   left:182px;
    margin-left:177px;
    margin-top:155px;
    position:absolute !important;
 }
 
 .fire-screens img {
-   height:315px;
+   height:400px;
 }
 
 .logo {
