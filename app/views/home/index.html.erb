@@ -6,6 +6,8 @@
 </div>
 <div class='strip'>
 </div>
+<div class='ipad'>
+</div>
 <div class='fire'>
 </div>
 <div id='screens' class='fire-screens' style='overflow:hidden'>
@@ -36,7 +38,7 @@
          <div id='#available'>
              <div style='height:140px'></div>
              <div class='buybutton' id='buybutton'>Get the App</div>
-             <span style="font-family:'RRegular';padding-left:17px">Available on: </span> Kindle Fire, B&N Nook, Android Tablets
+             <span style="font-family:'RRegular';padding-left:17px">Available on: </span> iPad, Kindle Fire, Barnes and Noble Nook, Android Tablets
          </div>
 </div>
 <div class='holder'>
@@ -67,11 +69,12 @@
               if($(this).data("qtip")) $(this).qtip("destroy");
        
               $(this).qtip({
-                   content: '<div style="width:170px;height:120px;color:#fff;font-size:20px">' +
-                               '<div class="kindle_fire_link"> <a href="http://www.amazon.com/GonePixel-Art-Gala-Classical-Masterpieces/dp/B007JYKPIW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1334461628&sr=1-1">Kindle Fire</a></div>' +
-                               '<div class="nook_link"> <a href="http://www.amazon.com/GonePixel-Art-Gala-Classical-Masterpieces/dp/B007JYKPIW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1334461628&sr=1-1"> Nook Tablet</a></div>' +
-                               '<div class="android_link"> <a href="https://play.google.com/store/apps/details?id=com.art&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5hcnQiXQ.."> Android Tablet</a></div>' +
-                               ' <br> Nook Tablet <br> Android Tablet <br> iPad </div>',
+                   content: '<div style="width:170px;height:170px;color:#fff;font-size:20px">' +
+                               '<div class="ipad_link"> <a target="_blank" href="http://itunes.apple.com/us/app/art-gala/id539349832"> iPad </a></div>' +
+                               '<div class="kindle_fire_link"> <a target="_blank" href="http://www.amazon.com/GonePixel-Art-Gala-Classical-Masterpieces/dp/B007JYKPIW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1334461628&sr=1-1">Kindle Fire</a></div>' +
+                               '<div class="nook_link"> <a target="_blank" href="http://www.barnesandnoble.com/w/art-gala-gonepixel/1110915494"> Nook Tablet</a></div>' +
+                               '<div class="android_link"> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.art&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5hcnQiXQ.."> Android Tablet</a></div>' +
+                            '</div>',
                    position: {
                       corner: {
                         tooltip:'bottomMiddle',

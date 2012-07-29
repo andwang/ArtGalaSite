@@ -13,7 +13,7 @@
 */
 body {
    background:url('bg.jpg');
-   background-size:900px 1000px;
+   background-size:100% 100%;
    line-height:1.0 !important;
 }
 
@@ -27,29 +27,39 @@ body {
    top:300px;
 }
 
+.ipad { 
+  background:url(ipad_gala.png);
+  background-size: 700px;
+  width:700px;
+  height:562px;
+  position:absolute;
+  top:150px;
+  left:20px;
+}
+
 .fire {
    background:url('kindle_fire.png');
    position:absolute;
-   background-size:700px;
+   background-size:450px;
    background-repeat:no-repeat;
-   top:10px;
+   top:190px;
    height:810px;
    width:600px;
-   left:10%;
+   left:230px;
 }
 
 .fire-screens {
-   height:442px;
+   height:352px;
    width:250px;
-   top:35px;
-   left:10%;
+   top:150px;
+   left:162px;
    margin-left:177px;
    margin-top:155px;
    position:absolute !important;
 }
 
 .fire-screens img {
-   height:472px;
+   height:315px;
 }
 
 .logo {
@@ -113,7 +123,6 @@ body {
   width:100%;
   left:0px;
   clear:both;
-  background: rgba(0, 0, 0, 0.7);
   overflow:hidden;
 }
 
@@ -135,7 +144,7 @@ body {
   backgroun: rgba(0,0,0,0.85);
 }
 
-.kindle_fire_link, .nook_link, .android_link {
+.kindle_fire_link, .nook_link, .android_link, .ipad_link {
  background-size:30px 30px;
  padding-left:45px;
  padding-bottom:5px;
@@ -145,16 +154,16 @@ body {
   margin-bottom:15px;
 }
 
-.kindle_fire_link:hover, .nook_link:hover, .android_link:hover {
+.kindle_fire_link:hover, .nook_link:hover, .android_link:hover, .ipad_link:hover {
    background-color:rgba(50,50,50,0.5);
 }
 
-.kindle_fire_link:hover a, .nook_link:hover a, .android_link:hover a {
+.kindle_fire_link:hover a, .nook_link:hover a, .android_link:hover a, .ipad_link:hover a {
    color:#fff;
 }
 
 
-.kindle_fire_link a,.nook_link a, .android_link  a{
+.kindle_fire_link a,.nook_link a, .android_link a, .ipad_link a {
    color:#fff;
    font-size:17px; 
 }
@@ -173,6 +182,11 @@ body {
 .nook_link {
    background:url(nook_store.png);
    background-repeat: no-repeat;
+}
+
+.ipad_link {
+   background:url(ipad_icon.png);
+   background-repeat: no-repeat;  
 }
 
 .footer-description {
