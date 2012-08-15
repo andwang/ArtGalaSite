@@ -14,4 +14,5 @@
 /log/*.log
 /tmp
 
-.rvmrc
+# Ignore Mac directory files
+.DS_Store
