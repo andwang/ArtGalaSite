@@ -218,3 +218,14 @@ body {
   font-family: RThin;
   src: url('Roboto-Thin.ttf');
 }
+
+
+div.orbit-wrapper div.slider-nav span.right {
+    background: none !important;
+    right: 0;
+}
+
+div.orbit-wrapper div.slider-nav span.left {
+    background: none !important;
+    left: 0;
+}
