@@ -2,7 +2,7 @@ Artfire::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  match 'about' => 'about#index', :via => :get
+  match 'about' => 'home#about', :via => :get
   match 'home' => 'home#index', :via => :get
   root :to => 'home#index'
 
