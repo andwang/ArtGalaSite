@@ -1,12 +1,15 @@
 <% provide(:title, 'Home') %>
 <div class='header'>
-    <span class='title'>Art Gala:</span><br>
-    <span class='subtitle'>Classic Masterpieces</span>
+  <%= image_tag('logo.png', :class => 'logo') %>
+  <%= link_to 'Contact', 'mailto:gonepixel@gmail.com', :class => 'menu' %>
+  <%= link_to 'About', about_path, :class => 'menu' %>
+  <div class='title'>Art Gala:</div>
+  <div class='subtitle'>Classic Masterpieces</div>
 </div>
-<div class='top-container'>
-  <a class='about' href='about'>About</a>
-  <a class='contact' href='contact'>Contact</a>
+
+<div class='logo'>
 </div>
+
 <div class='strip'>
 </div>
 <div class='ipad'>
@@ -26,15 +29,10 @@
 </div>
 
 <div style='position:absolute;display:none'>
-  <span id="caption1" >50,000 paintings from some of the world's <br> most famous artists.</span>
+  <span id="caption1" >70,000 paintings from some of the world's <br> most famous artists.</span>
   <span id="caption2" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
   <span id="caption3" >Picasso, Da Vinci, Van Gogh <br> breath-taking artwork <br>  masterpieces </span>
   <span id="caption4" >Explore different art periods.<br> From ancient times <br> to contemporary</span>
-  <span id="caption5" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
-  <span id="caption6" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
-  <span id="caption7" >50,000 paintings from some of the world's <br> most famous artists.</span>
-  <span id="caption8" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
-  <span id="caption9" >Picasso, Da Vinci, Van Gogh <br> ... and many, many others </span>
 </div>
 
 <div class='contents'>
