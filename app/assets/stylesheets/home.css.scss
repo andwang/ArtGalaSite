@@ -1,52 +1,52 @@
 body {
-   background:url('bg.jpg');
-   background-size:100% 100%;
-   line-height:1.0 !important;
+  background: url('bg.jpg');
+  background-size:100% 100%;
+  line-height:1.0 !important;
 }
 
 .strip {
-   background:url('strip_bg.png');
-   width:100%;
-   height:400px;
-   color:#fff;
-   background-repeat:repeat-x;
-   position:absolute;
-   top:300px;
+  background: url('strip_bg.png');
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  background-repeat: repeat-x;
+  position: absolute;
+  top: 300px;
 }
 
 .ipad { 
-  background:url(ipad_gala.png);
+  background: url(ipad_gala.png);
   background-size: 700px;
-  width:700px;
-  height:562px;
-  position:absolute;
-  top:150px;
-  left:20px;
+  width: 700px;
+  height: 562px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
 }
 
 .fire {
-   background:url('kindle_fire.png');
-   position:absolute;
-   background-size:550px;
-   background-repeat:no-repeat;
-   top:190px;
-   height:810px;
-   width:600px;
-   left:230px;
+  background: url('kindle_fire.png');
+  position: absolute;
+  background-size: 550px;
+  background-repeat: no-repeat;
+  top: 190px;
+  height: 810px;
+  width: 600px;
+  left: 230px;
 }
 
 .fire-screens {
-   height:402px;
-   width:250px;
-   top:170px;
-   left:182px;
-   margin-left:177px;
-   margin-top:155px;
-   position:absolute !important;
+  height: 402px;
+  width: 250px;
+  top: 88px;
+  left: 182px;
+  margin-left: 177px;
+  margin-top: 155px;
+  position: absolute !important;
 }
 
 .fire-screens img {
-   height:400px;
+  height: 400px;
 }
 
 .header {
@@ -83,52 +83,52 @@ body {
 }
 
 .contents {
-  padding-top:50px;
-  height:300px;
-  position:absolute;
-  color:#fff;
-  left:720px;
+  padding-top: 50px;
+  height: 300px;
+  position: absolute;
+  color: #fff;
+  left: 720px;
   top: 320px;
   font-family: RThin;
-  z-index:50;
+  z-index: 50;
 }
 
 .buybutton {
-  background:url('button_bg.png') no-repeat;
-  padding-top:26px;
-  padding-bottom:30px;
-  padding-left:65px;
-  padding-right:60px;
+  background: url('button_bg.png') no-repeat;
+  padding-top: 26px;
+  padding-bottom: 30px;
+  padding-left: 65px;
+  padding-right: 60px;
   font-family: 'RThin';
-  font-size:20px;
-  margin-bottom:10px;
-  cursor:pointer;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 .holder {
-  height:820px;
+  height: 820px;
 }
 
 .footer {
-  height:100px;
-  background:#000;
-  width:100%;
-  left:0px;
-  clear:both;
-  overflow:hidden;
+  height: 100px;
+  background: #000;
+  width: 100%;
+  left: 0px;
+  clear: both;
+  overflow: hidden;
 }
 
 .orbit-caption {
-  font-size:40px !important;
-  color:#fff;
-  position:absolute;
-  left:720px !important;
-  width:35% !important;
-  height:200px !important;
-  top:350px; 
-  z-index:30;
-  background:none !important;  
-  font-family:'RThin' !important;
-  text-align:right !important;
+  font-size: 40px !important;
+  color: #fff;
+  position: absolute;
+  left: 720px !important;
+  width: 35% !important;
+  height: 200px !important;
+  top: 268px; 
+  z-index: 30;
+  background: none !important;  
+  font-family: 'RThin' !important;
+  text-align: right !important;
 }
 
 .qtip {
@@ -136,48 +136,48 @@ body {
 }
 
 .kindle_fire_link, .nook_link, .android_link, .ipad_link {
- background-size:30px 30px;
- padding-left:45px;
- padding-bottom:5px;
- padding-top:5px;
- color:#fff;
- font-family:'RLight' !important;
-  margin-bottom:15px;
+  background-size: 30px 30px;
+  padding-left: 45px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #fff;
+  font-family: 'RLight' !important;
+  margin-bottom: 15px;
 }
 
 .kindle_fire_link:hover, .nook_link:hover, .android_link:hover, .ipad_link:hover {
-   background-color:rgba(50,50,50,0.5);
+  background-color: rgba(50,50,50,0.5);
 }
 
 .kindle_fire_link:hover a, .nook_link:hover a, .android_link:hover a, .ipad_link:hover a {
-   color:#fff;
+  color: #fff;
 }
 
 
 .kindle_fire_link a,.nook_link a, .android_link a, .ipad_link a {
-   color:#fff;
-   font-size:17px; 
+  color: #fff;
+  font-size: 17px; 
 }
 
 .kindle_fire_link {
-   background:url(amazon_icon.png);
-   background-repeat: no-repeat;
+  background: url(amazon_icon.png);
+  background-repeat: no-repeat;
 }
 
 .android_link {
-   background:url(google_play.png);
-   background-repeat: no-repeat;
+  background: url(google_play.png);
+  background-repeat: no-repeat;
 }
 
 
 .nook_link {
-   background:url(nook_store.png);
-   background-repeat: no-repeat;
+  background: url(nook_store.png);
+  background-repeat: no-repeat;
 }
 
 .ipad_link {
-   background:url(ipad_icon.png);
-   background-repeat: no-repeat;  
+  background: url(ipad_icon.png);
+  background-repeat: no-repeat;  
 }
 
 .footer-description {
@@ -212,20 +212,20 @@ body {
 
 
 div.orbit-wrapper div.slider-nav span.right {
-    background: none !important;
-    right: 0;
+  background: none !important;
+  right: 0;
 }
 
 div.orbit-wrapper div.slider-nav span.left {
-    background: none !important;
-    left: 0;
+  background: none !important;
+  left: 0;
 }
 
 .button-container {
-  font-family:'RThin';
-  color:#fff;
-  position:absolute;
-  top:34px;
+  font-family: 'RThin';
+  color: #fff;
+  position: absolute;
+  top: 34px;
   right: 50px;
-  padding-left:170px;
+  padding-left: 170px;
 }
