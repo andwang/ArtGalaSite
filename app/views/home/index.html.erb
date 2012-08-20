@@ -16,7 +16,8 @@
 </div>
 <div class='fire'>
 </div>
-<div id='screens' class='fire-screens'>
+
+<div id='screens' class='fire-screens' style='overflow:hidden; width:400px !important;'>
      <img src="assets/artgala_screen1.jpg" data-caption='#caption1' />
      <img src="assets/artgala_screen2.jpg"  data-caption='#caption2'  />
      <img src="assets/artgala_screen3.jpg" data-caption='#caption3' />
@@ -29,10 +30,16 @@
 </div>
 
 <div style='position:absolute;display:none'>
-  <span id="caption1" >70,000 paintings from some of the world's <br> most famous artists.</span>
-  <span id="caption2" >Immerse into a gorgeous museum-like experience right on your fingertips.</span>
-  <span id="caption3" >Picasso, Da Vinci, Van Gogh <br> breath-taking artwork <br>  masterpieces </span>
-  <span id="caption4" >Explore different art periods.<br> From ancient times <br> to contemporary</span>
+  <span id="caption1">70,000 paintings from some of the world's <br> most famous artists.</span>
+  <span id="caption2">Immerse into a gorgeous museum-like experience right on your fingertips.</span>
+  <span id="caption3">Picasso, Da Vinci, Van Gogh <br> breath-taking artwork <br>  masterpieces.  </span>
+  <span id="caption4">Explore different art periods.<br> From ancient times <br> to contemporary.</span>
+  <span id="caption5">Hundred of artists per exhibition,<br>organized by movement or nationality.</span>
+  <span id="caption6">Browse or search<br>for your favorite artist.</span>
+  <span id="caption7">1,500 western world's <br>most renowned artists.</span>
+  <span id="caption8">In-depth information<br>on artists and periods.</span>
+  <span id="caption9">A beautiful museum<br>at your fingertips.</span>
+
 </div>
 
 <div class='contents'>
@@ -56,22 +63,22 @@
     </div>
 </div>
 <script type="text/javascript">
-     $(window).load(function() {
-         $('#screens').orbit({
-              animation: 'fade',
-              animationSpeed: 2000,
-              advanceSpeed: 6000, 
-              captions: true, 	
-              captionAnimation: 'fade', 
-              captionAnimationSpeed: 2000
-         });
+     $  (function() {
+           $('#screens').orbit({
+                animation: 'fade',
+                animationSpeed: 2000,
+                advanceSpeed: 6000, 
+                captions: true, 	
+                captionAnimation: 'fade', 
+                captionAnimationSpeed: 2000
+           });
     
          $('#buybutton').click(function(){
               if($(this).data("qtip")) $(this).qtip("destroy");
        
               $(this).qtip({
-                   content: '<div style="width:170px;height:170px;color:#fff;font-size:20px">' +
-                               '<div class="ipad_link"> <a target="_blank" href="http://itunes.apple.com/us/app/art-gala/id539349832"> iPad </a></div>' +
+                   content: '<div style="width:200px;height:170px;color:#fff;font-size:20px">' +
+                               '<div class="ipad_link"><a target="_blank" href="http://itunes.apple.com/us/app/art-gala/id539349832">iPad</a></div>' +
                                '<div class="kindle_fire_link"> <a target="_blank" href="http://www.amazon.com/GonePixel-Art-Gala-Classical-Masterpieces/dp/B007JYKPIW/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1334461628&sr=1-1">Kindle Fire</a></div>' +
                                '<div class="nook_link"> <a target="_blank" href="http://www.barnesandnoble.com/w/art-gala-gonepixel/1110915494"> Nook Tablet</a></div>' +
                                '<div class="android_link"> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.art&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5hcnQiXQ.."> Android Tablet</a></div>' +
