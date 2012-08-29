@@ -3,6 +3,7 @@ Artfire::Application.routes.draw do
   # first created -> highest priority.
 
   match 'about' => 'home#about', :via => :get
+  match 'press' => 'home#press', :via => :get
   match 'home' => 'home#index', :via => :get
   root :to => 'home#index'
 
