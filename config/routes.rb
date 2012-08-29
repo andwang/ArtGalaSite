@@ -4,6 +4,8 @@ Artfire::Application.routes.draw do
 
   match 'about' => 'home#about', :via => :get
   match 'press' => 'home#press', :via => :get
+  match 'press/ipad' => 'home#press', :via => :get
+  match 'press/android' => 'home#pressandroid', :via => :get
   match 'home' => 'home#index', :via => :get
   root :to => 'home#index'
 
